@@ -2,6 +2,11 @@ package ua.selftaught;
 
 import java.io.StringReader;
 import java.io.StringWriter;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.List;
+import java.util.Objects;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
@@ -12,7 +17,7 @@ public class Main {
 
 	public static void main(String[] args) throws JAXBException {
 		
-		JAXBContext jbc = JAXBContext.newInstance(Person.class);
+		JAXBContext jbc = JAXBContext.newInstance(Person.class, Book.class, Books.class);
 		
 		Marshaller m = jbc.createMarshaller();
 		
@@ -26,6 +31,25 @@ public class Main {
 		System.out.println(sw.toString());
 		
 		System.out.println(p);
+		
+		
+		//2. Read the list of books from file books.xml
+		
+		String userDirStr = System.getProperty("user.dir");
+		
+		Objects.nonNull(userDirStr);
+		
+		Path userDir = Paths.get(userDirStr);
+		
+		if (Files.exists(userDir.resolve("books.xml"))) {
+			
+			@SuppressWarnings("unchecked")
+			Books catalog = (Books)um.unmarshal(userDir.resolve("books.xml").toFile());
+			
+			System.out.println(catalog);
+			
+		}
+		
 		
 		
 

@@ -1,8 +1,10 @@
 package ua.selftaught;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
@@ -13,21 +15,10 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@XmlRootElement(name = "book")
+@XmlRootElement(name = "catalog")
 @XmlAccessorType(XmlAccessType.FIELD)
-public class Book {
+public class Books {
 	
-	@XmlAttribute(name = "id")
-	private String id;
-	
-	private String author;
-	private String title;
-	private String genre;
-	private float price;
-	
-	@XmlElement(name="publish-date")
-	private String publishDate; //TODO: change type from String to LocalDate
-	private String description;
-	
-
+	@XmlElement(name = "book")
+	private List<Book> books = new ArrayList<>();
 }
