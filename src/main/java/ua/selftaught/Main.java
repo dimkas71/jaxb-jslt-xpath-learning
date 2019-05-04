@@ -5,7 +5,6 @@ import java.io.StringWriter;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.List;
 import java.util.Objects;
 
 import javax.xml.bind.JAXBContext;
@@ -17,7 +16,16 @@ public class Main {
 
 	public static void main(String[] args) throws JAXBException {
 		
-		JAXBContext jbc = JAXBContext.newInstance(Person.class, Book.class, Books.class);
+		JAXBContext jbc = JAXBContext.newInstance(Person.class,
+							Book.class,
+							Books.class,
+							Customer.class,
+							Customers.class,
+							Order.class,
+							Orders.class,
+							ShipInfo.class,
+							Root.class,
+							Address.class);
 		
 		Marshaller m = jbc.createMarshaller();
 		
@@ -43,11 +51,20 @@ public class Main {
 		
 		if (Files.exists(userDir.resolve("books.xml"))) {
 			
-			@SuppressWarnings("unchecked")
 			Books catalog = (Books)um.unmarshal(userDir.resolve("books.xml").toFile());
 			
 			System.out.println(catalog);
 			
+			//Marshall the first book to the System.out
+			Book first = catalog.getBooks().get(0);
+			
+			m.marshal(first, System.out);
+			
+		}
+		
+		if (Files.exists(userDir.resolve("customers.xml"))) {
+			Root root = (Root) um.unmarshal(userDir.resolve("customers.xml").toFile());
+			System.out.println(root);
 		}
 		
 		

@@ -1,10 +1,13 @@
 package ua.selftaught;
 
+import java.time.LocalDate;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -25,8 +28,10 @@ public class Book {
 	private String genre;
 	private float price;
 	
-	@XmlElement(name="publish-date")
-	private String publishDate; //TODO: change type from String to LocalDate
+	@XmlElement(name="publish_date")
+	@XmlJavaTypeAdapter(LocalDateAdapter.class)
+	private LocalDate publishDate; 
+	
 	private String description;
 	
 
