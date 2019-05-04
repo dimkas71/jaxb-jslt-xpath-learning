@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Sat May 04 2019 16:22:57 GMT+0300 (Eastern European Summer Time) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:element name="Root">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="Customers">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="Customer" maxOccurs="unbounded">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="CompanyName" type="xs:string"></xs:element>
+                                                               <xs:element name="ContactName" type="xs:string"></xs:element>
+                                                               <xs:element name="ContactTitle" type="xs:string"></xs:element>
+                                                               <xs:element name="Phone" type="xs:string"></xs:element>
+                                                               <xs:element name="FullAddress">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="Address" type="xs:string"></xs:element>
+                                                                                 <xs:element name="City" type="xs:string"></xs:element>
+                                                                                 <xs:element name="Region" type="xs:string"></xs:element>
+                                                                                 <xs:element name="PostalCode" type="xs:int"></xs:element>
+                                                                                 <xs:element name="Country" type="xs:string"></xs:element>
+                                                                           </xs:sequence>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                         <xs:attribute name="CustomerID" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="Orders">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="Order" maxOccurs="unbounded">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="CustomerID" type="xs:string"></xs:element>
+                                                               <xs:element name="EmployeeID" type="xs:int"></xs:element>
+                                                               <xs:element name="OrderDate" type="xs:dateTime"></xs:element>
+                                                               <xs:element name="RequiredDate" type="xs:dateTime"></xs:element>
+                                                               <xs:element name="ShipInfo">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="ShipVia" type="xs:int"></xs:element>
+                                                                                 <xs:element name="Freight" type="xs:double"></xs:element>
+                                                                                 <xs:element name="ShipName" type="xs:string"></xs:element>
+                                                                                 <xs:element name="ShipAddress" type="xs:string"></xs:element>
+                                                                                 <xs:element name="ShipCity" type="xs:string"></xs:element>
+                                                                                 <xs:element name="ShipRegion" type="xs:string"></xs:element>
+                                                                                 <xs:element name="ShipPostalCode" type="xs:int"></xs:element>
+                                                                                 <xs:element name="ShipCountry" type="xs:string"></xs:element>
+                                                                           </xs:sequence>
+                                                                           <xs:attribute name="ShippedDate" type="xs:dateTime"></xs:attribute>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>

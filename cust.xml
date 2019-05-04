@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customer>
+	<CompanyName>Compservice LTD</CompanyName>
+	<ContactName>Contract #1</ContactName>
+	<ContactTitle>For my salary</ContactTitle>
+	<Phone>000 121-11-23</Phone>
+	<FullAddress>
+		<Address>Holovna str, 151</Address>
+		<City>Chernivtsi</City>
+		<Region>Bukovina</Region>
+		<PostalCode>6</PostalCode>
+		<Country>Ukraine</Country>
+	</FullAddress>
+</customer>

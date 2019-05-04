@@ -1,5 +1,6 @@
 package ua.selftaught;
 
+import java.io.File;
 import java.io.StringReader;
 import java.io.StringWriter;
 import java.nio.file.Files;
@@ -11,6 +12,9 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
+
+import ua.selftaught.model.ObjectFactory;
+import ua.selftaught.model.Root.Customers.Customer.FullAddress;
 
 public class Main {
 
@@ -65,6 +69,42 @@ public class Main {
 		if (Files.exists(userDir.resolve("customers.xml"))) {
 			Root root = (Root) um.unmarshal(userDir.resolve("customers.xml").toFile());
 			System.out.println(root);
+			
+			JAXBContext jbcGenerated = JAXBContext.newInstance(ObjectFactory.class);
+			
+			Unmarshaller umGen = jbcGenerated.createUnmarshaller();
+			
+			Marshaller mGen = jbcGenerated.createMarshaller();
+			
+			
+			ua.selftaught.model.Root rootGen = (ua.selftaught.model.Root) umGen.unmarshal(userDir.resolve("customers.xml").toFile());
+			
+			System.out.println(rootGen);
+			
+			
+			ua.selftaught.model.Root.Customers.Customer customer = new ua.selftaught.model.Root.Customers.Customer();
+			
+			customer.setCompanyName("Compservice LTD");
+			customer.setContactName("Contract #1");
+			customer.setContactTitle("For my salary");
+			customer.setPhone("000 121-11-23");
+			
+			FullAddress address = new ua.selftaught.model.Root.Customers.Customer.FullAddress();
+			
+			address.setCity("Chernivtsi");
+			address.setAddress("Holovna str, 151");
+			address.setCountry("Ukraine");
+			address.setPostalCode(6);
+			address.setRegion("Bukovina");
+			
+			
+			customer.setFullAddress(address);
+			
+			
+			mGen.marshal(customer, System.out);
+			
+			mGen.marshal(customer, new File("cust.xml"));
+			
 		}
 		
 		
