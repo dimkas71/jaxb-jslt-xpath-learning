@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<currencies>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>036</digital_code>
+    <letter_code>AUD</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>Australian Dollar</currency_name>
+    <exchange_rate>1831.1153</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>944</digital_code>
+    <letter_code>AZN</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>Azerbaijan Manat</currency_name>
+    <exchange_rate>1531.1794</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>933</digital_code>
+    <letter_code>BYN</letter_code>
+    <number_of_units>10</number_of_units>
+    <currency_name>Belarusian Ruble</currency_name>
+    <exchange_rate>128.2205</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>975</digital_code>
+    <letter_code>BGN</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>Bulgarian Lev</currency_name>
+    <exchange_rate>1492.7550</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>124</digital_code>
+    <letter_code>CAD</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>Canadian Dollar</currency_name>
+    <exchange_rate>1992.8534</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>203</digital_code>
+    <letter_code>CZK</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>Czech Koruna</currency_name>
+    <exchange_rate>114.1066</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>208</digital_code>
+    <letter_code>DKK</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>Danish Krone</currency_name>
+    <exchange_rate>390.9806</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>818</digital_code>
+    <letter_code>EGP</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>Egyptian Pound</currency_name>
+    <exchange_rate>157.1986</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>978</digital_code>
+    <letter_code>EUR</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>Euro</currency_name>
+    <exchange_rate>2919.5303</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>348</digital_code>
+    <letter_code>HUF</letter_code>
+    <number_of_units>1000</number_of_units>
+    <currency_name>Forint</currency_name>
+    <exchange_rate>89.4300</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>344</digital_code>
+    <letter_code>HKD</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>Hong Kong Dollar</currency_name>
+    <exchange_rate>333.0744</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>356</digital_code>
+    <letter_code>INR</letter_code>
+    <number_of_units>1000</number_of_units>
+    <currency_name>Indian Rupee</currency_name>
+    <exchange_rate>377.7982</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>364</digital_code>
+    <letter_code>IRR</letter_code>
+    <number_of_units>1000</number_of_units>
+    <currency_name>Iranian Rial</currency_name>
+    <exchange_rate>.6198</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>191</digital_code>
+    <letter_code>HRK</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>Kuna</currency_name>
+    <exchange_rate>395.1987</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>484</digital_code>
+    <letter_code>MXN</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>Mexican Peso</currency_name>
+    <exchange_rate>136.5632</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>498</digital_code>
+    <letter_code>MDL</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>Moldovan Leu</currency_name>
+    <exchange_rate>147.7586</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>376</digital_code>
+    <letter_code>ILS</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>New Israeli Shekel</currency_name>
+    <exchange_rate>734.6209</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>554</digital_code>
+    <letter_code>NZD</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>New Zealand Dollar</currency_name>
+    <exchange_rate>1754.5254</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>578</digital_code>
+    <letter_code>NOK</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>Norwegian Krone</currency_name>
+    <exchange_rate>302.7365</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>826</digital_code>
+    <letter_code>GBP</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>Pound Sterling</currency_name>
+    <exchange_rate>3249.2296</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>710</digital_code>
+    <letter_code>ZAR</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>Rand</currency_name>
+    <exchange_rate>186.0379</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>946</digital_code>
+    <letter_code>RON</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>Romanian Leu</currency_name>
+    <exchange_rate>616.9108</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>360</digital_code>
+    <letter_code>IDR</letter_code>
+    <number_of_units>10000</number_of_units>
+    <currency_name>Rupiah</currency_name>
+    <exchange_rate>18.6315</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>643</digital_code>
+    <letter_code>RUB</letter_code>
+    <number_of_units>10</number_of_units>
+    <currency_name>Russian Ruble</currency_name>
+    <exchange_rate>4.1430</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>682</digital_code>
+    <letter_code>SAR</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>Saudi Riyal</currency_name>
+    <exchange_rate>694.1346</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>960</digital_code>
+    <letter_code>XDR</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>SDR</currency_name>
+    <exchange_rate>3595.8768</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>702</digital_code>
+    <letter_code>SGD</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>Singapore Dollar</currency_name>
+    <exchange_rate>1913.0662</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>752</digital_code>
+    <letter_code>SEK</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>Swedish Krona</currency_name>
+    <exchange_rate>277.9446</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>756</digital_code>
+    <letter_code>CHF</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>Swiss Franc</currency_name>
+    <exchange_rate>2638.7656</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>398</digital_code>
+    <letter_code>KZT</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>Tenge</currency_name>
+    <exchange_rate>6.7718</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>949</digital_code>
+    <letter_code>TRY</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>Turkish Lira</currency_name>
+    <exchange_rate>457.2340</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>840</digital_code>
+    <letter_code>USD</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>US Dollar</currency_name>
+    <exchange_rate>2603.0049</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>410</digital_code>
+    <letter_code>KRW</letter_code>
+    <number_of_units>1000</number_of_units>
+    <currency_name>Won</currency_name>
+    <exchange_rate>22.0959</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>392</digital_code>
+    <letter_code>JPY</letter_code>
+    <number_of_units>1000</number_of_units>
+    <currency_name>Yen</currency_name>
+    <exchange_rate>241.5030</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>156</digital_code>
+    <letter_code>CNY</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>Yuan Renminbi</currency_name>
+    <exchange_rate>378.3343</exchange_rate>
+  </currency>
+  <currency>
+    <date>20.07.2019</date>
+    <digital_code>985</digital_code>
+    <letter_code>PLN</letter_code>
+    <number_of_units>100</number_of_units>
+    <currency_name>Zloty</currency_name>
+    <exchange_rate>685.4001</exchange_rate>
+  </currency>
+</currencies>
+
